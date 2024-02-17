@@ -1,0 +1,1 @@
+This application was developed using Java and Volley. Although other technologies like MVVM and Retrofit, or even platforms like Jetpack Compose, Kotlin XML, or Flutter could be used, this app was intentionally kept simple in adherence to the given requirement of Java development.
