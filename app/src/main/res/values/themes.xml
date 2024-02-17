@@ -1,0 +1,16 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Q2Pay" parent="Theme.MaterialComponents.Light.NoActionBar">
+         <item name="colorPrimary">@color/primary</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar" >true</item>
+    </style>
+
+    <style name="Theme.Q2Pay" parent="Base.Theme.Q2Pay" />
+
+    <style name="MaterialAlertDialog.Rounded" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">@style/MaterialAlertDialog.Rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/menu_icn_home"
+        app:cnb_iconColor="@color/primary"
+
+        android:title="Home" />
+    <item
+        app:cnb_iconColor="@color/primary"
+        android:id="@+id/menu_services"
+        android:icon="@drawable/menu_icn_services"
+        android:title="Services" />
+
+    <item
+        app:cnb_iconColor="@color/primary"
+        android:id="@+id/menu_feed"
+        android:icon="@drawable/menu_icn_feeds"
+        android:title="Feeds" />
+
+    <item
+        app:cnb_iconColor="@color/primary"
+        android:id="@+id/menu_account"
+        android:icon="@drawable/menu_icn_account"
+        android:title="Account" />
+
+
+</menu>
